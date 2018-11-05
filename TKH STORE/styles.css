@@ -1,0 +1,11 @@
+header{
+	text-align: center;
+	font-size: 80px;
+	background-color: tomato;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
