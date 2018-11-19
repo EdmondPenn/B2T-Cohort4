@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Film House</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+	<link href="newStyle.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="cStyles.css">
+
+	<svg viewBox="0 0 3387 1270">
+  <path id="planePath" class="planePath" d="M-226 626c439,4 636,-213 934,-225 755,-31 602,769 1334,658 562,-86 668,-698 266,-908 -401,-210 -893,189 -632,630 260,441 747,121 1051,91 360,-36 889,179 889,179" />
+  <g id="plane">
+    <polygon class="fil1" points="-141,-10 199,0 -198,-72 -188,-61 -171,-57 -184,-57 " />
+    <polygon class="fil2" points="199,0 -141,-10 -163,63 -123,9 " />
+    <polygon class="fil3" points="-95,39 -113,32 -123,9 -163,63 -105,53 -108,45 -87,48 -90,45 -103,41 -94,41 " />
+    <path class="fil4" d="M-87 48l-21 -3 3 8 19 -4 -1 -1zm-26 -16l18 7 -2 -1 32 -7 -29 1 11 -4 -24 -1 -16 -18 10 23zm10 9l13 4 -4 -4 -9 0z" />
+    <polygon class="fil1" points="-83,28 -94,32 -65,31 -97,38 -86,49 -67,70 199,0 -123,9 -107,27 " />
+  </g>
+  <!-- Define the motion path animation -->
+  <animateMotion xlink:href="#plane" dur="5s" repeatCount="indefinite" rotate="auto">
+    <mpath xlink:href="#planePath" />
+  </animateMotion> 
+
+</svg>
+
+</head>
+		
+		<img id="logo" src="filmHouseLogo.png" >
+		
+		<hr>
+
+		<h1>OUR FEATURED MOVIES</h1>
+	<body onload="displayMovies()">
+		<div id="top"></div>
+<section class="gallery">
+	<div class="row">
+		<ul>
+			<a href="#" class="close"></a>
+			<li>
+				<a href="#item01">
+					<img src="jaws.jpg">
+				</a>
+			</li>
+
+			<li>
+				<a href="#item02">
+					<img src="blackPanther.jpg">
+				</a>
+			</li>
+
+			<li>
+				<a href="#item03">
+					<img src="pulpFiction.jpg">
+				</a>
+			</li>
+			<li>
+				<a class="image" href="#item04">
+					<img src="moonlight.jpg">
+				</a>
+			</li>
+			<li>
+				<a class="image" href="#item05">
+					<img src="BohRhap.jpg">
+				</a>
+			</li>
+			<li>
+				<a class="image" href="#item06">
+					<img src="pulpFiction.jpg">
+				</a>
+			</li>
+			<li>
+				<a class="image" href="#item07">
+					<img src="blackPanther.jpg">
+				</a>
+			</li>
+			<li>
+				<a class="image" href="#item08">
+					<img src="BohRhap.jpg">
+				</a>
+			</li>
+		</ul>
+	</div> <!-- / row -->
+
+	<!-- Item 01 -->
+	<div id="item01" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h1>Jaws</h1>
+				<p>When a killer shark unleashes chaos on a beach resort, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.</p>
+			</div>
+
+				<img src="popUpJaws.jpg">
+			</div>
+		</div> <!-- / row -->
+
+	</div> <!-- / Item 01 -->
+
+	<!-- Item 02 -->
+	<div id="item02" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h1>Black Panther</h1>
+				<p>After the death of his father, Prince T'Challa ascends to the throne of the small African country of Wakanda. T'Challa is also Black Panther, superhero. Now not only must he govern his country but defeat a dangerous adversary.</p>
+				<h2>* * * * 4 stars</h2>
+			</div>
+			<img src="bpPopUp.jpg">
+		</div> <!-- / row -->
+
+	</div> <!-- / Item 02 -->
+
+
+	<!-- Item 03 -->
+	<div id="item03" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h1>Pulp Fiction</h1>
+				<p>The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.</p>
+				<h2>* * * * 4 stars</h2>
+			</div>
+			<img src="popUpPulpFiction.jpg">
+		</div> <!-- / row -->
+
+	</div> <!-- / Item 03 -->
+
+
+		<!-- Item 04 -->
+	<div id="item04" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h1>Moon light</h1>
+				<p>A chronicle of the childhood, adolescence and burgeoning adulthood of a young, African-American, gay man growing up in a rough neighborhood of Miami.</p>
+				<h2>* * * * 4 stars</h2>
+			</div>
+			<img src="popUpMoonlight.jpg">
+		</div> <!-- / row -->
+
+	</div> <!-- / Item 04 -->
+
+
+		<!-- Item 05 -->
+	<div id="item05" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h1>Bohemian Rhapsody</h1>
+				<p>A chronicle of the years leading up to Queen's legendary appearance at the Live Aid (1985) concert.</p>
+				<h2>* * * * 4 stars</h2>
+			</div>
+			<img src="popUpBr.jpg">
+		</div> <!-- / row -->
+
+	</div> <!-- / Item 05 -->
+
+		<!-- Item 06 -->
+	<div id="item06" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h1>Black Panther</h1>
+				<p>After the death of his father, Prince T'Challa ascends to the throne of the small African country of Wakanda. T'Challa is also Black Panther, superhero. Now not only must he govern his country but defeat a dangerous adversary.</p>
+				<h2>* * * * 4 stars</h2>
+			</div>
+			<img src="popUpPulpFiction.jpg">
+		</div> <!-- / row -->
+
+	</div> <!-- / Item 06 -->
+
+		<!-- Item 07 -->
+	<div id="item07" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h1>Black Panther</h1>
+				<p>After the death of his father, Prince T'Challa ascends to the throne of the small African country of Wakanda. T'Challa is also Black Panther, superhero. Now not only must he govern his country but defeat a dangerous adversary.</p>
+				<h2>* * * * 4 stars</h2>
+			</div>
+			<img src="bpPopUp.jpg">
+		</div> <!-- / row -->
+
+	</div> <!-- / Item 07 -->
+
+		<!-- Item 08 -->
+	<div id="item08" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h1>Black Panther</h1>
+				<p>After the death of his father, Prince T'Challa ascends to the throne of the small African country of Wakanda. T'Challa is also Black Panther, superhero. Now not only must he govern his country but defeat a dangerous adversary.</p>
+				<h2>* * * * 4 stars</h2>
+			</div>
+			<img src="bpPopUp.jpg">
+		</div> <!-- / row -->
+
+	</div> <!-- / Item 08 -->
+
+
+
+</section> <!-- / projects -->
+
+	
+
+		<input id="title" type="text" placeholder="Enter Movie Title"/>
+		<input id="director" type="text" placeholder="Enter Director" />
+		<input id="year" type="number" placeholder="Release Year" />
+			<select id="status">
+    	<option value="">--Has movie been shown?--</option>
+   		<option value="yes">Yes</option>
+    	<option value="no">No</option>
+			</select>    	
+
+		<input type="button" value="Add Movie" onclick="addMovie()" />
+				
+		<div class="container" id="display"></div>
+		
+		<!-- ------------------------------------------------- -->
+		<hr/>		
+				<div class="row">
+					<div class="col">
+					<h4 id="quantityDisplay">Quantity: 0</h4>
+				</div>		
+		
+
+		
+		<script src="cScript.js"></script>
+	</body>
+</html>

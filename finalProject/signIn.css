@@ -1,0 +1,51 @@
+body {
+    padding-top: 180px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 780px;
+}
+
+
+h4{
+	
+	color: black;
+	font-size: 15px;
+	font-family: Georgia;
+	margin-left: 0px;
+
+}
+
+label{
+	color: black;
+	font-size: 15px;
+	font-family: Georgia;
+	margin-left: 0px;
+
+}
+
+img{
+	margin-left: 200px;
+
+}
+
+body {
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 1400px 1400px;
+}
+
+
+a {
+	background-color: lightgrey;
+	border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
+
+}
+
+
