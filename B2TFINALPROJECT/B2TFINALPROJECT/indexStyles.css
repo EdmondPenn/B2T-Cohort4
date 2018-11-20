@@ -1,0 +1,189 @@
+nav {
+  float: right;
+  width: 100%;
+  height: 50px;
+}
+
+}
+nav ul {
+  list-style: none;
+  overflow: hidden;
+  text-align: right;
+  float: right;
+}
+
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 50px;
+  line-height: 1.5;
+}
+
+}
+nav ul a {
+  color: #888888;
+  text-transform: uppercase;
+  font-size: 12px;
+
+}
+
+
+.row {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 2%;
+}
+
+
+body {
+  color:#95B8D1;
+  background: white;
+  font-family: "Cardo", serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 250px;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-color:6182B5;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 17px;
+  line-height: 2;
+  margin-left: 40px;
+  color:#95B8D1;
+}
+
+.content {
+  padding: 50px 2% 250px;
+}
+
+
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+a {
+  color:#95B8D1;
+  margin-left: 50px;
+}
+
+section {
+  padding: 150px 0;
+}
+
+#logo{
+    height: 50px;
+    width: 60px;
+    margin-left: 10px;
+   
+
+}
+
+.display{
+  margin-left: 0px;
+  height:10px;
+  width: 1200px;
+  margin-left: 10px;
+  background: blue;
+  overflow: scroll;
+  margin-top: 200px;
+
+
+}
+
+
+
+input{
+margin-top: 40px;
+margin-left: 80px;
+
+}
+
+h1{
+  margin-top: 50px;
+  margin-left: 500px;
+
+}
+
+button{
+  font-size: 1px;
+}
+
+.container{
+  margin-left: 0px;
+  height:500px;
+  width: 1300px;
+  margin-left: 0px;
+  background: light blue;
+  overflow: scroll;
+
+}
+
+.topnav{
+  margin-left: 50px;
+
+}
+
+
+
+.textimg{
+  display: flex;
+
+}
+.sec01{
+   margin-left: 0px;
+
+}
+
+.newDisplay{
+  display: flex;
+  align-items: center;
+  
+
+}
+
+.text{
+  margin-right: 30px;
+
+}
+
+#movieimg{
+      margin-left: 200px;
+    position: relative;
+    /* margin-bottom: -100px; */
+    margin-top: 0px;
+}
+
+.sec01{
+  margin-left: 185px; 
+}
+
+.sec02{
+  margin-left: 195px; 
+}
+
+.sec03{
+  margin-left: 170px; 
+}
+
+.link{
+  color:black;
+  margin-left: 253px;
+
+}
+
+

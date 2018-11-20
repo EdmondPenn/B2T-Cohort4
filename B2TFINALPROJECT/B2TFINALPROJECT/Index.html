@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Film House</title>
+	
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+
+
+	<link rel="stylesheet" type="text/css" href="indexStyles.css">
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+
+  
+<div class="topnav">
+  <img id="logo" src="images/filmHouseLogo.png" >
+  <a href="index.html">Catalogue</a>
+  <a href="comingSoon.html">Coming Soon</a>
+  <a href="aboutUs.html">About</a>
+   <a href="signIn.html">Log Out</a>
+</div>
+
+
+<hr>
+
+  <body onload="displayMovies()">
+
+    <input id="title" type="text" placeholder="Enter Movie Title"/>
+    <input id="director" type="text" placeholder="Enter Director" />
+    <input id="year" type="number" placeholder="Enter Release Year" />
+      <select id="status">
+          <option value="">--Has movie been shown?--</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+      </select>     
+    
+    <input id="cover" type="text" placeholder="Enter Poster Image"/>
+    <input type="button" value="Add Movie" onclick="addMovie()" />
+        
+   <div class="container" id="display"></div>
+    
+    <!-- ------------------------------------------------- -->
+      
+         <h4 id="quantityDisplay">Quantity: 0</h4>  
+
+         
+        
+     
+    
+    
+  </body>
+		
+    <script src="indexScript.js"></script>
+    
+
+  
+</html>
